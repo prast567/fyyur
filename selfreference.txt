@@ -1,0 +1,8 @@
+frpm flask_migrate import Migrate
+
+migrate = Migrate()
+
+Then go to project dir and run
+flask db init
+flask db migrate
+flask db upgrade== db will created
